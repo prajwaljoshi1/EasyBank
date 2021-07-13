@@ -1,0 +1,15 @@
+html {
+  font-size: 100%;   // makes webpage more accessible
+  box-sizing: border-box; // makes size of elements include padding in the final width
+}
+
+* , *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  fomt-family: 'Public Sans', sams-serif;
+  line-height: 1.3;
+}
